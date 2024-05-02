@@ -1,0 +1,40 @@
+.logo-img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+#insta{
+    color: rgb(255, 42, 42);
+}
+
+#YT{
+    color: red;
+}
+
+.gradient-bg-blackandwhite {
+    background: linear-gradient(300deg, #ffffff, #dddddd, #b8b8b8);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+.hero-bg{
+    height: 100vh;
+    background-color: rgb(243, 243, 243);
+    background-image: url(images/pexels-konevi-2291789.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+
+}
