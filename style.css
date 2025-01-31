@@ -38,3 +38,14 @@
     background-repeat: no-repeat;
 
 }
+
+.block {
+  animation: appear linear;
+  animation-timeline: view()
+  animation-range entry 0% cover 40%
+}
+
+.bg-color {
+  background-color: #dbdbdb;
+  box-shadow: #000000;
+}
